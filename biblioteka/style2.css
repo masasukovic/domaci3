@@ -1,0 +1,9 @@
+body {
+    font-family: 'Poppins';
+    background-image: url('images/solar.jpg');
+    background-size: cover;
+}
+
+#main_title, .form-label {
+    color: yellow;
+}
