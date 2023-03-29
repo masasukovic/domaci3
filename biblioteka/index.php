@@ -24,14 +24,14 @@
 
     <a href="./registration.php"><button class="btn btn-warning">Registruj se</button></a>
 
-    <div class="container mt-5">
-            <nav class="navbar bg-body-tertiary col-12">
+    <div class="container text-center mt-5">
+            <nav class="navbar bg-warning col-12">
                 <div class="container-fluid">
                 <form action="index.php" method="GET" class="d-flex" role="search">
                 
                     <input name="term" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" 
                     value=<?php if(key_exists('term', $_GET))  echo $_GET['term']?>>
-                <button class="btn btn-outline-warning" type="submit">Search</button>
+                <button class="btn btn-outline-dark" type="submit">Search</button>
                 </form>
                 </div>
             </nav>
